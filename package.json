@@ -1,0 +1,16 @@
+{
+  "name": "streamfilter-addon",
+  "version": "1.0.0",
+  "description": "Stremio addon - filtra streams por idioma y calidad",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
